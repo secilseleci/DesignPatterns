@@ -1,0 +1,15 @@
+﻿using DesignPattern.ChainOfResponsibbility.Models;
+
+namespace DesignPattern.ChainOfResponsibbility.ChainOfResponsibility
+{
+    public abstract class Employee
+    {
+        protected Employee NextApprover;
+
+        public void SetNextApprover(Employee supervisor)
+        {
+            this.NextApprover = supervisor;
+        }
+        public abstract void ProcessRequest(CustomerProcessViewModel req);
+    }
+}
