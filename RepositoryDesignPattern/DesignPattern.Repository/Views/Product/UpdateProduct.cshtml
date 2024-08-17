@@ -1,0 +1,37 @@
+﻿ @model RepositoryDesignPattern.EntityLayer.Concrete.Product
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+@{
+    Layout = null;
+}
+<div class="container">
+    <form method="post">
+        <input type="hidden" asp-for="ProductID" />
+        <label>Ürün Adı</label>
+        <input type="text" asp-for="ProductName" class="form-control" />
+
+        <br />
+
+        <label>Ürün Stoğu</label>
+        <input type="text" asp-for="ProductStock" class="form-control" />
+
+        <br />
+
+        <label>Ürün Fiyatı</label>
+        <input type="text" asp-for="ProductPrice" class="form-control" />
+
+        <br />
+
+        <label>Kategori</label>
+        @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.v, new { @class = "form-control" })
+
+        <br />
+
+        <button class="btn btn-info">Güncelle</button>
+    </form>
+
+</div>
+
