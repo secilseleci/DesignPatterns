@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace DesignPattern.ChainOfResponsibbility.DAL
+namespace DesignPattern.ChainOfResponsibility.DAL
 {
     public class Context:DbContext
     {

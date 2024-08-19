@@ -1,4 +1,4 @@
-namespace DesignPattern.ChainOfResponsibbility.Models
+namespace DesignPattern.ChainOfResponsibility.Models
 {
     public class ErrorViewModel
     {

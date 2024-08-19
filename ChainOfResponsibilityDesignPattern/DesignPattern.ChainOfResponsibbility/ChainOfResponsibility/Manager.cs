@@ -1,7 +1,7 @@
-﻿using DesignPattern.ChainOfResponsibbility.DAL;
-using DesignPattern.ChainOfResponsibbility.Models;
+﻿using DesignPattern.ChainOfResponsibility.DAL;
+using DesignPattern.ChainOfResponsibility.Models;
 
-namespace DesignPattern.ChainOfResponsibbility.ChainOfResponsibility
+namespace DesignPattern.ChainOfResponsibility.ChainOfResponsibility
 {
     public class Manager : Employee
     {

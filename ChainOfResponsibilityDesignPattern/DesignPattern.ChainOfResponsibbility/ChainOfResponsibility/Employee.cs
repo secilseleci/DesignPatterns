@@ -1,6 +1,6 @@
-﻿using DesignPattern.ChainOfResponsibbility.Models;
+﻿using DesignPattern.ChainOfResponsibility.Models;
 
-namespace DesignPattern.ChainOfResponsibbility.ChainOfResponsibility
+namespace DesignPattern.ChainOfResponsibility.ChainOfResponsibility
 {
     public abstract class Employee
     {

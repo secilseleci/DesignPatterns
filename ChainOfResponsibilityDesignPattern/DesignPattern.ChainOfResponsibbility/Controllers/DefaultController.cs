@@ -1,10 +1,10 @@
-﻿using DesignPattern.ChainOfResponsibbility.ChainOfResponsibility;
-using DesignPattern.ChainOfResponsibbility.DAL;
-using DesignPattern.ChainOfResponsibbility.Models;
+﻿using DesignPattern.ChainOfResponsibility.ChainOfResponsibility;
+using DesignPattern.ChainOfResponsibility.DAL;
+using DesignPattern.ChainOfResponsibility.Models;
 using Microsoft.AspNetCore.Mvc;
-using Employee = DesignPattern.ChainOfResponsibbility.ChainOfResponsibility.Employee;
+using Employee = DesignPattern.ChainOfResponsibility.ChainOfResponsibility.Employee;
 
-namespace DesignPattern.ChainOfResponsibbility.Controllers
+namespace DesignPattern.ChainOfResponsibility.Controllers
 {
     public class DefaultController : Controller
     {

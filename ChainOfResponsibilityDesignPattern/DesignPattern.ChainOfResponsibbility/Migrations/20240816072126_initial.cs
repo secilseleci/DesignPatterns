@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace DesignPattern.ChainOfResponsibbility.Migrations
+namespace DesignPattern.ChainOfResponsibility.Migrations
 {
     public partial class initial : Migration
     {

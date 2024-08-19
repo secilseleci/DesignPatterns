@@ -1,8 +1,8 @@
-﻿using DesignPattern.ChainOfResponsibbility.Models;
+﻿using DesignPattern.ChainOfResponsibility.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace DesignPattern.ChainOfResponsibbility.Controllers
+namespace DesignPattern.ChainOfResponsibility.Controllers
 {
     public class HomeController : Controller
     {

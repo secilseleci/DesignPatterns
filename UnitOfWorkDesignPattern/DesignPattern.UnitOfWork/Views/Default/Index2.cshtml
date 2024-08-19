@@ -1,0 +1,30 @@
+﻿@model List<DesignPattern.EntityLayer.Concrete.Customer>
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+@{
+    Layout = null;
+}
+
+
+<div class="container">
+
+    <table class="table table-bordered">
+        <tr>
+            <th>#</th>
+            <th>Müşteri Ad ve Soyadı</th>
+            <th>Müşteri Hesap Bakiyesi</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CustomerName</td>
+                <td>@item.CustomerBalance</td>
+            </tr>
+        }
+    </table>
+    <a class=" btn btn-outline-primary" asp-controller="Home" asp-action="Index">geri</a>
+</div>

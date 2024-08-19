@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.ChainOfResponsibbility.DAL
+﻿namespace DesignPattern.ChainOfResponsibility.DAL
 {
     public class Employee
     {
