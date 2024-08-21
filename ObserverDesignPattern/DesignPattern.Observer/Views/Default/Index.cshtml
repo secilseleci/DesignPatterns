@@ -1,0 +1,31 @@
+﻿@model DesignPattern.Observer.Models.RegisterViewModel
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+@{
+    Layout = null;
+}
+
+<div class="container">
+    <form method="post">
+        <label>Adınız</label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <br />
+        <label>Soyadınız</label>
+        <input type="text" asp-for="Surname" class="form-control" />
+        <br />
+        <label>Email Adresiniz</label>
+        <input type="text" asp-for="Email" class="form-control" />
+        <br />
+        <label>Kullanıcı Adınız</label>
+        <input type="text" asp-for="Username" class="form-control" />
+        <br />
+        <label>Parolanız</label>
+        <input type="password" asp-for="Password" class="form-control" />
+        <br />
+
+        <button class="btn btn-info">Kaydol</button>
+    </form>
