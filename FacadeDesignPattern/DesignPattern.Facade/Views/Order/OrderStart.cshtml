@@ -1,0 +1,21 @@
+﻿ @model DesignPattern.Facade.DAL.Order
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+
+
+
+<div class="container">
+    <h1>Sipariş Oluştur</h1>
+
+    <form method="post">
+        <label>Müşteri ID</label>
+        <input type="text" asp-for="CustomerID" class="form-control" />
+        <br />
+        <a href="/Order/OrderDetailStart/" class="btn btn-info">Sipariş oluştur</a>
+    </form>
+
+</div>

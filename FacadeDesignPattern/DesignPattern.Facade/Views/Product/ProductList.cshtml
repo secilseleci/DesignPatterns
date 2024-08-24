@@ -1,0 +1,44 @@
+﻿@model List<DesignPattern.Facade.DAL.Product>
+
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+ 
+
+
+<div class="container">
+
+    <h1>Ürün Listesi</h1>
+    <br /> <br />
+
+    <table class="table table-bordered">
+        <tr>
+            <th>#</th>
+            <th>Ürün Ad</th>
+            <th>Ürün Stok</th>
+            <th>Ürün Fiyat</th>
+            <th>Ürün Kategori</th>
+
+
+        </tr>
+        @foreach (var item in Model)
+        {
+
+            <tr>
+                <td>@item.ProductID </td>
+                <td>@item.ProductName </td>
+                <td>@item.ProductStock </td>
+                <td>@item.ProductPrice </td>
+                <td>@item.ProductCategory </td>
+
+
+            </tr>
+        }
+    </table>
+    <a href="/Product/AddNewProduct/" class="btn btn-info">Yeni Ürün Kaydet</a>
+
+
+</div>

@@ -1,0 +1,32 @@
+﻿@model DesignPattern.Facade.DAL.Product
+
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+
+
+<div class="container">
+    <h1>Yeni Ürün Kaydı</h1>
+
+    <form method="post">
+        <label>Ürün Ad</label>
+        <input type="text" asp-for="ProductName" class="form-control" />
+        <br />
+        <label>Ürün Stok</label>
+        <input type="text" asp-for="ProductStock" class="form-control" />
+        <br />
+        <label>Ürün Fiyat</label>
+        <input type="text" asp-for="ProductPrice" class="form-control" />
+        <br />
+        <label>Ürün Kategori</label>
+        <input type="text" asp-for="ProductCategory" class="form-control" />
+        <br />
+        <button class="btn btn-info">Kaydet</button>
+    </form>
+
+
+
+</div>
